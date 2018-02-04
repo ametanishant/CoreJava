@@ -15,10 +15,7 @@ public class Fibonacci {
 	        {
 	            System.out.print(num1+" ");
 
-	            /* On each iteration, we are assigning second number
-	             * to the first number and assigning the sum of last two
-	             * numbers to the second number
-	             */
+	           
 	            int sumOfPrevTwo = num1 + num2;
 	            num1 = num2;
 	            num2 = sumOfPrevTwo;
