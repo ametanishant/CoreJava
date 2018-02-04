@@ -2,27 +2,20 @@ package com.nishant.coreconcept;
 
 public class Fibonacci {
 
-	// Print First 10 Fibonacci number 
-	
+	// Print First 10 Fibonacci number
+
 	public static void main(String[] args) {
-		
-		
-		
-		 int count = 10, num1 = 0, num2 = 1;
-	        System.out.print("Fibonacci Series of "+count+" numbers:");
 
-	        for (int i = 1; i <= count; i++)
-	        {
-	            System.out.print(num1+" ");
+		int number1 = 0, number2 = 1;
 
-	           
-	            int sumOfPrevTwo = num1 + num2;
-	            num1 = num2;
-	            num2 = sumOfPrevTwo;
-		
-	        }
-		
-	
+		for (int i = 1; i <= 10; i++) {
+			System.out.print(number1 + " ");
 
-}
+			int sum = number1 + number2;
+			number1 = number2;
+			number2 = sum;
+
+		}
+
+	}
 }
